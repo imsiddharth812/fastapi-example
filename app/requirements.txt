@@ -1,7 +1,0 @@
-fastapi==0.110.2
-jose==1.0.0
-passlib==1.7.4
-psycopg2==2.9.9
-pydantic==2.7.1
-pydantic_settings==2.2.1
-SQLAlchemy==2.0.25
