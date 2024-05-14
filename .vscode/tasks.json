@@ -1,0 +1,24 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run FastAPI",
+            "type": "shell",
+            
+            // This change tells uvicorn to run the main module inside the app package (app.main), and use the FastAPI instance app defined in that module.
+            "command": "uvicorn app.main:app --reload",
+            "options": {
+                "cwd": "${workspaceFolder}"  // Adjust according to your project structure
+            },
+            "group": {
+                "kind": "test",
+                "isDefault": true
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            }
+        }
+    ]
+}

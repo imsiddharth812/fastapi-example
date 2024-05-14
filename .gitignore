@@ -1,7 +1,6 @@
 __pycache__/
 venv/
 .env
-.vscode
 .DS_Store
 .pytest_cache
 test_calculation.py
